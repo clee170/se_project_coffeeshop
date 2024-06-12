@@ -16,6 +16,7 @@
   margin: 0;
   gap: 20px;
   list-style-type: none;
+  font-weight: 500;
 }
 
 .nav__link {

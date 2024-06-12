@@ -21,6 +21,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  gap: 12px;
 }
 
 .form__checkbox {
@@ -32,9 +33,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
 }
 
-input[type="checkbox"]:checked {
+.form__checkbox:checked {
   accent-color: #2f80ed;
   background-image: url(/images/check.svg);
 }
@@ -43,7 +45,8 @@ input[type="checkbox"]:checked {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 1em;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-top: 8px;
   border-radius: 4px;
   height: 60px;
@@ -53,6 +56,8 @@ input[type="checkbox"]:checked {
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  box-sizing: border-box;
+  max-width: 385px;
 }
 
 .form__button {
@@ -66,6 +71,9 @@ input[type="checkbox"]:checked {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #2f80ed;
+  border: 0;
+  cursor: pointer;
 }
 
 .form__button:hover {

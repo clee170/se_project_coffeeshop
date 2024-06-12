@@ -4,9 +4,11 @@
   min-height: 720px;
   height: 100vh;
   display: flex;
+  position: relative;
   flex-direction: column;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -41,8 +43,8 @@
 }
 
 .header__image {
-  height: 646px;
-  width: 568px;
+  height: 568px;
+  width: 646px;
   position: absolute;
   top: 124px;
   right: 5px;
@@ -57,5 +59,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
   margin-top: auto;
 }

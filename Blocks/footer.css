@@ -1,7 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   box-sizing: border-box;
-  background-color: #1f1f1f;
+
   color: #fff;
   padding: 60px 80px;
 }
@@ -31,6 +31,10 @@
   margin: 0 0 16px;
 }
 
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__social-heading {
   margin: 0 0 20px;
   font-family: "Inter", Arial, sans-serif;
@@ -48,6 +52,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
@@ -58,6 +64,7 @@
   width: 16px;
   height: 16px;
   padding-right: 10px;
+  color: white;
 }
 
 .footer__copyright {
