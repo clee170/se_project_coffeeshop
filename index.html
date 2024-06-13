@@ -106,6 +106,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="guests" class="form__label">
@@ -117,6 +118,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="guests"
+                  required
                 />
               </label>
               <label for="date" class="form__label">
@@ -134,13 +136,18 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
-            <button type="button" class="form__button">Book a table</button>
+            <button type="submit" class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />I
-              agree with terms and use
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox"
+                required
+              />I agree with terms and use
             </label>
           </form>
         </section>

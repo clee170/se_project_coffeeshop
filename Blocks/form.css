@@ -71,9 +71,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #2f80ed;
+  background-color: #2f80ed;
   border: 0;
   cursor: pointer;
+  color: white;
+  border-radius: 4px;
 }
 
 .form__button:hover {

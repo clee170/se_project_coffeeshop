@@ -42,12 +42,9 @@
 
 .about__circle_animation_blurred {
   background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
+
   position: static;
-  top: -152px;
-  left: -129px;
-  border-radius: 50%;
+
   animation-delay: 0ms;
   transform: scale(1.5);
   animation: pulsate 1.3s infinite ease-in-out;
