@@ -61,3 +61,7 @@
   color: #838383;
   margin: auto 0;
 }
+
+.header__paragraph {
+  margin: 0;
+}
